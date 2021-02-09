@@ -12,15 +12,14 @@
     height: 200px;
     background-image: url(tyler_ico.png);
     overflow: hidden;
-    animation: gira 6s infinite;
+    animation: gira 5s infinite;
     margin: 250px auto;
 }
 
 
 @keyframes gira {
-    50% { transform: rotate(45deg); }
     75% { transform: rotate(-45deg); }
-    100% { transform: rotate(360deg); }
-    0% { transform: rotate(0deg); }
+    100% { transform: rotate(405deg); }
+    0% { transform: rotate(45deg); }
 
 }
